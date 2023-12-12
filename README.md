@@ -6,7 +6,7 @@
 ## This project prepared by :
 [Rida Essahi](https://github.com/Rida003)
 
-[Adebari Oluwakemi](https://github.com/Barry-Kemz)
+[Barry-Kemz](https://github.com/Barry-Kemz)
 
 Write a simple UNIX command interpreter.
 It’s time for the famous Simple Shell project. This is one of the most anticipated project and also one that will challenge you a lot about everything you have learn so far:
