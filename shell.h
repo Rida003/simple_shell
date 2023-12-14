@@ -52,9 +52,6 @@ int run_command(shell_t *, char *, char **);
 int run_path(shell_t *, char *);
 int check_slash(char *);
 
-/* print_env.c */
-void print_env(shell_t *);
-
 /* string.c */
 size_t _strlen(char *);
 char *_strdup(char *);
@@ -72,11 +69,12 @@ char **get_path(char **);
 void free_shell_t(shell_t *);
 void p_commanderr(char *, char *);
 
+/* buildin.c */
+void my_exit(shell_t *);
+void print_env(shell_t *);
+
 /* function prototypes */
 char *_strtok(char *, const char *);
 ssize_t getline(char **, size_t *, FILE *);
-
-/* exit_env.c */
-void my_exit(shell_t *);
 
 #endif
